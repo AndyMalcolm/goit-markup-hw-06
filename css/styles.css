@@ -453,3 +453,14 @@ footer .logo{margin: 0;}
            visibility: hidden;
            pointer-events: none;}
 .no-scroll{overflow: hidden;}
+
+
+/*_____FORM SETTINGS_____*/
+
+
+.modal-form{}
+.modal-b{}
+.modal-input{}
+.modal-textarea{}
+.modal-checkbox{}
+.modal-form-button{}
