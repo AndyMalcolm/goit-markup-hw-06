@@ -565,6 +565,6 @@ footer .logo{margin: 0;}
              position: absolute;
              left: 16px;
              top: 11px;}
-.modal-input:hover .modal-icons{fill: var(--brand-color);}
-.modal-input:focus .modal-icons{fill: var(--brand-color);}
+.modal-input:hover + .modal-icons{fill: var(--brand-color);}
+.modal-input:focus + .modal-icons{fill: var(--brand-color);}
 .emae{position: relative;}
