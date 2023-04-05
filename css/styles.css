@@ -325,7 +325,7 @@ footer .logo{margin: 0;}
     line-height: 1.5;
     letter-spacing: 0.02em;}
 .footer-form{}
-.footer-label{
+.footer-label{margin-top: 16px;
     font-weight: 400;
     font-size: 12px;
     line-height: 24px;
