@@ -525,12 +525,19 @@ footer .logo{margin: 0;}
              height: 40px;
              border: 1px solid rgba(46, 47, 66, 0.4);
              border-radius: 4px;}
+.modal-input:valid{background-color: rgba(30, 255, 0, 0.163);}
+.modal-input:invalid{background-color: rgba(255, 0, 0, 0.211);}
+.modal-input:hover, .modal-input:focus{border-color: var(--brand-color);}
 .modal-textarea{width: 360px;
                 height: 120px;
                 border: 1px solid rgba(46, 47, 66, 0.4);
-                border-radius: 4px;
-                box-sizing: border-box;}
+                border-radius: 4px;}
 .modal-checkbox{}
+.modal-textarea::placeholder{letter-spacing: 0.04em;
+                             color: rgba(46, 47, 66, 0.4);
+                             padding-left: 16px; 
+                             padding-top: 8px;}
+.modal-textarea:hover, .modal-textarea:focus{border-color: var(--brand-color);}
 .modal-form-button{display: flex;
     flex-direction: row;
     border: none;
