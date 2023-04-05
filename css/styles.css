@@ -501,7 +501,14 @@ footer .logo{margin: 0;}
 .modal-form{}
 .modal-b{}
 .modal-label{}
-.modal-input{}
-.modal-textarea{}
+.modal-input{width: 100%;
+             height: 40px;
+             border: 1px solid rgba(46, 47, 66, 0.4);
+             border-radius: 4px;}
+.modal-textarea{width: 360px;
+    height: 120px;
+    border: 1px solid rgba(46, 47, 66, 0.4);
+    border-radius: 4px;
+    box-sizing: border-box;}
 .modal-checkbox{}
 .modal-form-button{}
