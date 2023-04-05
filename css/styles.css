@@ -560,3 +560,11 @@ footer .logo{margin: 0;}
     letter-spacing: 0.04em;
     color: var(--white-color);}
 .modal-form-button:hover, .modal-form-button:focus{background-color: var(--violet-color);}
+.modal-fill{}
+.modal-icons{fill: var(--darker-color);
+             position: absolute;
+             left: 16px;
+             top: 11px;}
+.modal-input:hover .modal-icons{fill: var(--brand-color);}
+.modal-input:focus .modal-icons{fill: var(--brand-color);}
+.emae{position: relative;}
