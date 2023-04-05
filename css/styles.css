@@ -292,7 +292,7 @@ footer .logo{margin: 0;}
     color: var(--lighter-color);
     width: 264px;}
 .footer-div{display: flex;}
-.footer-soc-div{margin-left: 120px;}
+.footer-soc-div{margin-left: 80px;}
 .footer-b{color: var(--white-color);
                 margin: 0;
                 padding: 0;
@@ -314,6 +314,7 @@ footer .logo{margin: 0;}
     justify-content: center;
     transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);}
 .footer-link:hover, .footer-link:focus{background-color: var(--green-color);}
+.footer-sub{margin-left: 120px;}
 .subscribe-b{color: var(--white-color);
     margin: 0;
     padding: 0;
