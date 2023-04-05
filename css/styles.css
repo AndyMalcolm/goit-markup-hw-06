@@ -523,14 +523,20 @@ footer .logo{margin: 0;}
 .modal-form-button{display: flex;
     flex-direction: row;
     border: none;
-    align-items: flex-start;
-    padding: 16px 32px;
+    margin-left: 119px;
     gap: 10px;
-    position: absolute;
     width: 169px;
     height: 56px;
     background: var(--brand-color);
     transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-    border-radius: 4px;}
+    border-radius: 4px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.04em;
+    color: var(--white-color);}
 .modal-form-button:hover, .modal-form-button:focus{background-color: var(--violet-color);}
