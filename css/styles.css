@@ -499,16 +499,38 @@ footer .logo{margin: 0;}
 
 
 .modal-form{}
-.modal-b{}
-.modal-label{}
+.modal-p{color: var(--darker-color);
+         font-weight: 500;
+         font-size: 16px;
+         line-height: 1.5;
+         text-align: center;
+         letter-spacing: 0.02em;}
+.modal-label{font-weight: 400;
+             font-size: 12px;
+             line-height: 1.16;
+             letter-spacing: 0.01em;
+             color: var(--light-gray-color);}
 .modal-input{width: 100%;
              height: 40px;
              border: 1px solid rgba(46, 47, 66, 0.4);
              border-radius: 4px;}
 .modal-textarea{width: 360px;
-    height: 120px;
-    border: 1px solid rgba(46, 47, 66, 0.4);
-    border-radius: 4px;
-    box-sizing: border-box;}
+                height: 120px;
+                border: 1px solid rgba(46, 47, 66, 0.4);
+                border-radius: 4px;
+                box-sizing: border-box;}
 .modal-checkbox{}
-.modal-form-button{}
+.modal-form-button{display: flex;
+    flex-direction: row;
+    border: none;
+    align-items: flex-start;
+    padding: 16px 32px;
+    gap: 10px;
+    position: absolute;
+    width: 169px;
+    height: 56px;
+    background: var(--brand-color);
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;}
+.modal-form-button:hover, .modal-form-button:focus{background-color: var(--violet-color);}
