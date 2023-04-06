@@ -603,3 +603,4 @@ footer .logo{margin: 0;}
 .modal-policy{color: var(--brand-color); 
               transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);}
 .modal-policy:hover, .modal-policy:focus{color: var(--violet-color);}
+.emae{margin-top: 2px;}
