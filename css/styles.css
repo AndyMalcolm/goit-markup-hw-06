@@ -293,7 +293,7 @@ footer .logo{margin: 0;}
     width: 264px;}
 .footer-div{display: flex;}
 .footer-soc-div{margin-left: 80px;}
-.footer-b{color: var(--white-color);
+.footer-p{color: var(--white-color);
                 margin: 0;
                 padding: 0;
                 font-weight: 500;
@@ -315,10 +315,7 @@ footer .logo{margin: 0;}
     transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);}
 .footer-link:hover, .footer-link:focus{background-color: var(--green-color);}
 .footer-sub{margin-left: 80px;}
-.footer-but{margin: 0;
-            margin-left: 24px;
-            margin-top: 40px;}
-.subscribe-b{color: var(--white-color);
+.subscribe-p{color: var(--white-color);
     margin: 0;
     padding: 0;
     font-weight: 500;
@@ -326,21 +323,21 @@ footer .logo{margin: 0;}
     line-height: 1.5;
     letter-spacing: 0.02em;}
 .footer-form{}
-.footer-label{margin-top: 16px;
-    font-weight: 400;
-    font-size: 12px;
-    line-height: 24px;
-    display: flex;
-    align-items: center;
-    letter-spacing: 0.04em;
-    color: var(--white-color);}
 .footer-input{border: 1px solid var(--white-color);
               filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
               border-radius: 4px;
               background: var(--darker-color);
-              color: var(--white-color);
               width: 264px;
-              height: 40px;}
+              height: 40px;
+              margin-top: 16px;
+              font-weight: 400;
+              font-size: 12px;
+              line-height: 24px;
+              display: flex;
+              align-items: center;
+              letter-spacing: 0.04em;
+              padding-left: 16px;}
+.footer-input::placeholder{color: var(--white-color);}
 .footer-button{background-color: var(--brand-color);
     font-weight: 500;
     line-height: 1.5;
@@ -350,6 +347,7 @@ footer .logo{margin: 0;}
     cursor: pointer;
     color: var(--white-color);
     margin: 0 auto;
+    margin-left: 24px;
     width: 165px;
     height: 40px;
     display: flex;
@@ -574,7 +572,6 @@ footer .logo{margin: 0;}
 .modal-text-check{letter-spacing: 0.04em;}
 /*
 - подчеркивание ссылки в окне
-- текст белым в поле
 - убрать чтоб можно было размер поля изменять
 - галочку и текст поменять местами
 - галочку стилизировать(не забыть транзишн)
