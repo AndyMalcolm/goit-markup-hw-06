@@ -538,6 +538,7 @@ footer .logo{margin: 0;}
                 background: var(--violet-color);
                 border: 1px solid var(--violet-color);
                 border-radius: 2px;}
+.modal-check{}
 .modal-checkbox:active{}
 .modal-textarea::placeholder{letter-spacing: 0.04em;
                              color: rgba(46, 47, 66, 0.4);
@@ -578,12 +579,11 @@ footer .logo{margin: 0;}
 .modal-wrap{position: relative; 
             margin-top: 4px; 
             margin-bottom: 8px;}
-.modal-text-check{letter-spacing: 0.04em;}
+.modal-text-check{letter-spacing: 0.04em;
+                  color: var(--light-gray-color);}
 /*
 - подчеркивание ссылки в окне
 - галочку и текст поменять местами
-- галочку стилизировать(не забыть транзишн)???
-- расстояние в окне между текстом и полями
-(может лейбл поставить сразу после спана)
+- галочку стилизировать???
 - падинги в поле для ввода в окне, 
 чтоб писать с расстояния, а не в картинке*/
