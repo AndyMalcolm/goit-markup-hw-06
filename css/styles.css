@@ -597,6 +597,9 @@ footer .logo{margin: 0;}
 .modal-text-check span{background-color: var(--violet-color);
                        border: none;
                        fill: var(--white-color);}
+.modal-checkbox:focus + .modal-text-check span{
+    border-color: var(--violet-color);
+}
 .modal-policy{color: var(--brand-color); 
               transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);}
 .modal-policy:hover, .modal-policy:focus{color: var(--violet-color);}
