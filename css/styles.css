@@ -581,6 +581,10 @@ footer .logo{margin: 0;}
             margin-bottom: 8px;}
 .modal-text-check{letter-spacing: 0.04em;
                   color: var(--light-gray-color);}
+.modal-policy{color: var(--brand-color); 
+              transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);}
+.modal-policy:hover, .modal-policy:focus{color: var(--violet-color);}
+
 /*
 - подчеркивание ссылки в окне
 - галочку и текст поменять местами
