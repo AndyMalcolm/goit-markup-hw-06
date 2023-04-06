@@ -527,11 +527,19 @@ footer .logo{margin: 0;}
 .modal-input:invalid{background-color: rgba(255, 0, 0, 0.211);}
 .modal-input:hover, .modal-input:focus{border-color: var(--brand-color);}
 .modal-textarea{width: 360px;
+                resize: none;
                 height: 120px;
                 border: 1px solid rgba(46, 47, 66, 0.4);
                 border-radius: 4px;
                 transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);}
-.modal-checkbox{}
+.modal-checkbox{box-sizing: border-box;
+                position: absolute;
+                width: 16px;
+                height: 16px;
+                background: var(--violet-color);
+                border: 1px solid var(--violet-color);
+                border-radius: 2px;}
+.modal-checkbox:active{}
 .modal-textarea::placeholder{letter-spacing: 0.04em;
                              color: rgba(46, 47, 66, 0.4);
                              padding-left: 16px; 
@@ -572,9 +580,8 @@ footer .logo{margin: 0;}
 .modal-text-check{letter-spacing: 0.04em;}
 /*
 - подчеркивание ссылки в окне
-- убрать чтоб можно было размер поля изменять
 - галочку и текст поменять местами
-- галочку стилизировать(не забыть транзишн)
+- галочку стилизировать(не забыть транзишн)???
 - расстояние в окне между текстом и полями
 (может лейбл поставить сразу после спана)
 - падинги в поле для ввода в окне, 
