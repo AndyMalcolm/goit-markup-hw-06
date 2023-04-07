@@ -541,6 +541,7 @@ footer .logo{margin: 0;}
 .modal-textarea{width: 360px;
                 resize: none;
                 margin-bottom: 16px;
+                margin-top: 26px;
                 padding: 8px 16px ;
                 height: 120px;
                 border: 1px solid rgba(46, 47, 66, 0.4);
@@ -548,6 +549,8 @@ footer .logo{margin: 0;}
                 outline: none;
                 transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);}
 .modal-textarea::placeholder{letter-spacing: 0.04em;
+                             font-size: 12px;
+                             line-height: 1.16;
                              color: rgba(46, 47, 66, 0.4);
                              transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);}
 .modal-textarea:hover, .modal-textarea:focus{border-color: var(--brand-color);}
@@ -611,7 +614,7 @@ footer .logo{margin: 0;}
 .modal-policy{color: var(--brand-color); 
               transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);}
 .modal-policy:hover, .modal-policy:focus{color: var(--violet-color);}
-.modal-privacy{margin-top: 2px;
+.modal-privacy{margin-top: 3px;
       font-size: 12px;
       line-height: 1.16;
       letter-spacing: 0.04em;
