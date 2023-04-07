@@ -520,7 +520,8 @@ footer .logo{margin: 0;}
              height: 40px;
              border: 1px solid rgba(46, 47, 66, 0.4);
              border-radius: 4px;
-             padding-left: 38px;}
+             padding-left: 38px;
+             outline: none;}
 .modal-input:valid{background-color: }
 .modal-input:invalid{background-color: }
 .modal-input:hover, .modal-input:focus{border-color: var(--brand-color);}
@@ -533,6 +534,7 @@ footer .logo{margin: 0;}
                 height: 120px;
                 border: 1px solid rgba(46, 47, 66, 0.4);
                 border-radius: 4px;
+                outline: none;
                 transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);}
 .modal-textarea::placeholder{letter-spacing: 0.04em;
                              color: rgba(46, 47, 66, 0.4);
