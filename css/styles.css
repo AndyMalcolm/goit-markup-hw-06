@@ -541,7 +541,6 @@ footer .logo{margin: 0;}
 .modal-textarea{width: 360px;
                 resize: none;
                 margin-bottom: 16px;
-                margin-top: 26px;
                 padding: 8px 16px ;
                 height: 120px;
                 border: 1px solid rgba(46, 47, 66, 0.4);
@@ -578,8 +577,8 @@ footer .logo{margin: 0;}
 .modal-fill{}
 .modal-form-button:hover, .modal-form-button:focus{background-color: var(--violet-color);}
 .modal-wrap{position: relative;
-            display: flex;
             align-items: center;}
+.need-flex{display: flex;}
 .modal-text-check{display: flex;
                   margin-right: 5px;}
 /*.modal-checkbox:checked + 
