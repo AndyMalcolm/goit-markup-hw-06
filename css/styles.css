@@ -522,7 +522,8 @@ footer .logo{margin: 0;}
              border: 1px solid rgba(46, 47, 66, 0.4);
              border-radius: 4px;
              padding-left: 38px;
-             outline: none;}
+             outline: none;
+             margin-top: 4px;}
 /*.modal-input:valid{background-color: }
 .modal-input:invalid{background-color: }*/
 .modal-input:focus{border-color: var(--brand-color);}
@@ -544,6 +545,7 @@ footer .logo{margin: 0;}
                 line-height: 1.16;
                 letter-spacing: 0.04em;
                 margin-bottom: 16px;
+                margin-top: 4px;
                 padding: 8px 16px ;
                 height: 120px;
                 border: 1px solid rgba(46, 47, 66, 0.4);
@@ -580,8 +582,7 @@ footer .logo{margin: 0;}
 .modal-form-button:hover, .modal-form-button:focus{background-color: var(--violet-color);}
 /*.modal-wrap{position: relative;
             align-items: center;}*/
-.need-flex{display: flex;}
-.bruh{display: flex; align-items: center;}
+.need-flex{display: flex; align-items: center;}
 .modal-text-check{display: flex;
                   margin-right: 5px;}
 /*.modal-checkbox:checked + 
@@ -623,3 +624,4 @@ footer .logo{margin: 0;}
       line-height: 1.16;
       letter-spacing: 0.04em;
       color: var(--light-gray-color);}
+.modal-fill{margin-bottom: 8px;}
