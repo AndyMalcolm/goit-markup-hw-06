@@ -533,12 +533,12 @@ footer .logo{margin: 0;}
 .modal-input:focus + .modal-icons{fill: var(--brand-color);}
 .modal-icons:focus + .modal-input{border-color: var(--brand-color);}
 .modal-text{display: block;
-            margin-top: 8px;
             margin-bottom: 4px;
             font-size: 12px;
             line-height: 1.16;
             letter-spacing: 0.04em;
             color: var(--light-gray-color);}
+.with-mt{margin-top: 8px;}
 .modal-textarea{width: 360px;
                 resize: none;
                 font-size: 12px;
