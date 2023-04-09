@@ -603,8 +603,7 @@ footer .logo{margin: 0;}
                           height: 16px;
                           border-radius: 2px;
                           border: 1px solid rgba(46, 47, 66, 0.4);}*/
-.modal-text-check span{width: 16px;
-                       height: 16px;
+.modal-text-check span{
                        border-radius: 2px;
                        border: 1px solid rgba(46, 47, 66, 0.4);
                        display: flex;
