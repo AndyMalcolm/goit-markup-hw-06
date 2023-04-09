@@ -538,7 +538,6 @@ footer .logo{margin: 0;}
             line-height: 1.16;
             letter-spacing: 0.04em;
             color: var(--light-gray-color);}*/
-.with-mt{margin-top: 8px;}
 .modal-textarea{width: 360px;
                 resize: none;
                 font-size: 12px;
