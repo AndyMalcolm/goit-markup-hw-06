@@ -624,7 +624,7 @@ footer .logo{margin: 0;}
 .modal-policy:hover, .modal-policy:focus{color: var(--violet-color);}
 .modal-privacy{margin-left: 8px;
       font-size: 12px;
-      line-height: 1.16;
+      /*line-height: 1.16;*/
       letter-spacing: 0.04em;
       color: var(--light-gray-color);}
 .modal-fill{margin-bottom: 8px;}
